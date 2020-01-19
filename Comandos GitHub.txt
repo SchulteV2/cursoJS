@@ -6,4 +6,3 @@ git push
 
 Comando para Download
 git pull
-
