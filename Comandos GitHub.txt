@@ -1,0 +1,9 @@
+Comando para upar
+git status
+git add .
+git commit -m 'texto sobre'
+git push
+
+Comando para Download
+git pull
+
