@@ -1,0 +1,8 @@
+Comando iniciar server http
+http-server .
+
+Comando nodemon
+nodemon arquivo.js
+
+Comando node
+node arquivo.js
