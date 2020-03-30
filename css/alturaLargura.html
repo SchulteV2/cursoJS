@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="UTF-8">
-    <title>Altura e Largura</title>
+    <title>Document</title>
     <style>
         body {
             font-size: 40px;
@@ -11,18 +10,22 @@
         }
 
         div {
-            background-color: seagreen;
+            background-color: green;
         }
 
         span {
             background-color: dodgerblue;
         }
+
+        span, div {
+            width: 50%;
+            height: 50%; /* Não considera, pois o body não ocupa a altura toda */
+            height: 250px;
+        }
     </style>
 </head>
-
 <body>
     <div>Título</div>
     <span>Subtítulo</span>
 </body>
-
 </html>
