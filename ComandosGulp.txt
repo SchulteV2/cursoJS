@@ -1,0 +1,8 @@
+Comando para instalar as dependencias na pasta do gulp
+npm i
+
+Comando para instalar Command Line Interface
+npm -g gulp-cli
+
+Comando para executar o gulpfile
+gulp
