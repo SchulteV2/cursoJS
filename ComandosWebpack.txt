@@ -1,0 +1,20 @@
+/* COMANDOS UTILIZADOS NO MÓDULO DE WEBPACK*/
+
+Criar arquivo package.json
+npm init -y
+
+Instalar as dependencias do package.json
+npm i
+
+Executar o WEBPACK e gerar a build
+npm start
+
+Executar o webpack e imprimir o "bom dia"
+npm start ; node dist/main.js --> utilizar no windows
+npm start && node dist/main.js --> utilizar em outro so
+
+Executar no modo production
+npm run build
+
+Executar no modo development
+npm run start
