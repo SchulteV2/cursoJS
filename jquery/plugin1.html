@@ -23,6 +23,7 @@
 
     <script>
         // const $ = { nome: 'Não é o JQuery' }
+
         (function($) {
             $.fn.interpretar = function () {
                 const retirarChaves = s => s.substring(2, s.length - 2)
@@ -38,6 +39,7 @@
                     )
                 }
                 $(this).html(conteudoFinal)
+                return this
             }
         })(jQuery)
 
