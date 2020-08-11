@@ -1,12 +1,20 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-// import Primeiro from './componentes/Primeiro'
-import BomDia from './componentes/BomDia'
 
 // const elemento = <h1>React</h1>
-
 // ReactDOM.render(elemento, document.getElementById('root'))
 
+// import Primeiro from './componentes/Primeiro'
 // ReactDOM.render(<Primeiro />, document.getElementById('root'))
 
-ReactDOM.render(<BomDia nome="Guilherme" idade={10} />, document.getElementById('root'))
+// import BomDia from './componentes/BomDia'
+// ReactDOM.render(<BomDia nome="Guilherme" idade={10} />, document.getElementById('root'))
+
+import { BoaTarde, BoaNoite } from './componentes/Multiplos'
+ReactDOM.render(
+    <div>
+        <BoaTarde nome="Ana"/>
+        <BoaNoite nome="Bia"/>
+    </div>,
+    document.getElementById('root')
+)
