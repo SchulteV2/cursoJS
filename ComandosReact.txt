@@ -6,3 +6,13 @@ create-react-app nomeprojeto
 
 Para startar o projeto
 npm start
+
+-----
+
+Projeto Crud
+
+Cria o package.json
+npm init -y
+
+Instalar JSON-server na versão 0.13.0
+npm i --save json-server@0.13.0 -E
