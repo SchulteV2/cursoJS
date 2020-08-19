@@ -5,10 +5,10 @@ export default props =>
     <aside className="menu-area">
         <nav className="menu">
             <a href="#/">
-                <i className="fa fa-home"></i> Início
+                <i className={`fa fa-${props.iconHome}`}></i> Início
             </a>
             <a href="#/users">
-                <i className="fa fa-users"></i> Usuários
+                <i className={`fa fa-${props.iconUsers}`}></i> Usuários
             </a>
         </nav>
     </aside>
