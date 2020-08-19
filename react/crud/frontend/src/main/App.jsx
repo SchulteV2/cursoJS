@@ -7,10 +7,22 @@ import Nav from '../components/template/Nav'
 import Home from '../components/home/Home'
 import Footer from '../components/template/Footer'
 
+const data = [{
+    icon: 'fa-home',
+    url: '/home',
+    text: 'Home'
+},
+{
+    icon: 'fa-users',
+    url: '/users',
+    text: 'Usuários'
+    }
+]
+
 export default props =>
     <div className="app">
         <Logo />
-        <Nav iconHome="home" iconUsers="users"/>
+        <Nav data={data}/>
         <Home />
         <Footer />
     </div>

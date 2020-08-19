@@ -4,11 +4,10 @@ import React from 'react'
 export default props =>
     <aside className="menu-area">
         <nav className="menu">
-            <a href="#/">
-                <i className={`fa fa-${props.iconHome}`}></i> Início
-            </a>
-            <a href="#/users">
-                <i className={`fa fa-${props.iconUsers}`}></i> Usuários
-            </a>
+            { props.data.map(element => (
+                <a href={element.url}>
+                    <i className={`fa ${element.icon}`}></i> {element.text}
+                </a>
+            ))}
         </nav>
     </aside>
